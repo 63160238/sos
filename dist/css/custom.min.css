@@ -1,0 +1,17 @@
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background: #85c9f6;
+  color: #000;
+  border-color: #ffffff; }
+  .blur-overlay {
+    backdrop-filter: blur(8px); /* เพิ่มเอฟเฟคเบลอ */
+    background-color: rgba(255, 255, 255, 0.5); /* สีพื้นหลังที่เป็นสีอ่อน */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* ให้มีค่า z-index สูงกว่าส่วนอื่น ๆ เพื่อให้เบลออยู่ด้านหน้า */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
